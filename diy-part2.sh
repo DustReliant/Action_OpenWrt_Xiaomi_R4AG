@@ -23,4 +23,4 @@ sed -i "s/OpenWrt /wbs build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt.Dust/g" pack
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # 修改默认wifi名称ssid为Xiaomi_R4A
-sed -i 's/ssid=OpenWrt/ssid=Xiaomi_R4A/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/ssid=OpenWrt/ssid=WiFi_R4AGv2/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
